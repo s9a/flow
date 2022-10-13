@@ -1,0 +1,54 @@
+:focus {
+  outline: thick dotted;
+}
+
+::selection {
+  background: #f60;
+  color: indigo;
+}
+
+.thrill {
+  --tape-remix: linear-gradient(
+      var(--tape-pink),
+      var(--tape-yellow)
+    );
+}
+
+:root {
+  --tape-filter: hue-rotate(-72deg);
+}
+
+.riot {
+  --tape-yellow: #e40;
+}
+
+html {
+  font-family: monospace;
+  font-size: max(20pt, 2vmax + 2vmin);
+}
+
+body {
+  margin: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.free {
+  margin: auto;
+}
+
+.wing {
+  display: table;
+}
+
+.rosa {
+  font-size: 1.6rem;
+}
+
+.soar {
+  font-size: 2.6rem;
+}
+
+.dear {
+  margin: 0;
+  font: inherit;
+}
